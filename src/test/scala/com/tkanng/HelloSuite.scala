@@ -1,10 +1,21 @@
 package com.tkanng
 
-import org.scalatest.{BeforeAndAfter, FunSuite, PrivateMethodTester}
+import org.scalatest.{BeforeAndAfter, BeforeAndAfterAll, FunSuite, PrivateMethodTester}
+import Hello.hello
+class  HelloSuite extends FunSuite with BeforeAndAfterAll{
+  override def beforeAll(): Unit = {
+    println("Before all")
+    super.beforeAll()
 
-class  HelloSuite extends FunSuite{
-    test("An empty Set should have size 0") {
-    assert(Set.empty.isEmpty)
+  }
+  test("Hello.hello method") {
+      println("Test")
+    assert(hello()=="Hello")
+  }
+
+  override def afterAll(): Unit = {
+    println("After all")
+    super.afterAll()
   }
 
 }

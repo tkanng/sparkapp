@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="617975ff-26b9-4915-a89c-cd804daaaf6d" name="Default Changelist" comment="" />
+    <list default="true" id="617975ff-26b9-4915-a89c-cd804daaaf6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/history.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tkanng/HDFSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tkanng/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tkanng/LocalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tkanng/ResourcesFetcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tkanng/ServiceLoaderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tkanng/SynchronousQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tkanng/jvm/HeapOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tkanng/jvm/ReferenceCountingGc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tkanng/jvm/TestClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/services/com.tkanng.IService" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/employees.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/people.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/people.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tkanng/Hello.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tkanng/LogQuery.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tkanng/SparkSQLExample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tkanng/TestDataFrame.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tkanng/TestNarrowAndShuffleDep.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tkanng/UserDefinedTypedAggregation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/tkanng/UserDefinedUntypedAggregation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sparkapp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sparkapp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tkanng/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tkanng/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/tkanng/SparkPi.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/tkanng/SparkPi.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tkanng/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tkanng/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/tkanng/H.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tkanng/H.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/tkanng/HelloSuite.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/tkanng/HelloSuite.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,34 +39,68 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sparkapp$HelloSuite.ic" NAME="HelloSuite Coverage Results" MODIFIED="1550735159440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="235" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/ResourcesFetcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/tkanng/SparkPi.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+            <state relative-caret-position="168">
+              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <element signature="e#21#61#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="1133" column="28" selection-start-line="1133" selection-start-column="28" selection-end-line="1133" selection-end-column="28" />
+              <folding>
+                <element signature="e#7118#8856#0" />
+                <element signature="e#44527#44528#0" expanded="true" />
+                <element signature="e#44554#44555#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2-sources.jar!/jodd/util/cl/ExtendedURLClassLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="215" column="22" selection-start-line="215" selection-start-column="22" selection-end-line="215" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/lang/Class.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="2210" column="71" selection-start-line="2210" selection-start-column="71" selection-end-line="2210" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -48,25 +112,47 @@
       <list>
         <option value="Scala Object" />
         <option value="Package Object" />
+        <option value="ScalaTest Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SOURCE</find>
-      <find>SOURCE-</find>
-      <find>1.0.4</find>
-      <find>compile</find>
-      <find>scala:compile</find>
-      <find>spakr</find>
-      <find>scalatest</find>
-      <find>report</find>
-      <find>scala</find>
       <find>ManifestResourceTransformer</find>
+      <find>scala:co</find>
+      <find>deve</find>
+      <find>put</find>
+      <find>poll</find>
+      <find>p</find>
+      <find>scala</find>
+      <find>setall</find>
+      <find>set</find>
+      <find>rt.jar</find>
+      <find>findcLASS</find>
+      <find>ext</find>
+      <find>extc</find>
+      <find>getco</find>
+      <find>partitioner</find>
+      <find>Starting task</find>
+      <find>tasksetmanager</find>
+      <find>ShuffleMapStage</find>
+      <find>MyAverage</find>
+      <find>examples/src/main/</find>
+      <find>examples/src/main</find>
+      <find>combinebykey</find>
+      <find>groupByKey</find>
+      <find>reducebyke</find>
+      <find>orderingToOrdere</find>
+      <find>wARN</find>
+      <find>surefi</find>
+      <find>deployURLs</find>
+      <find>getresourceads</find>
+      <find>Desktop</find>
     </findStrings>
     <replaceStrings>
       <replace>spark</replace>
+      <replace>src/main</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -77,13 +163,38 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/Hello.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tkanng/HelloTest.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/com/tkanng/HelloSuite.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tkanng/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/Hellow.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/HelloWorld.scala" />
+        <option value="$PROJECT_DIR$/history.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tkanng/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tkanng/ServiceLoaderExample.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tkanng/IService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/services/com.tkanng.IService" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tkanng/HDFSService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tkanng/LocalService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tkanng/SynchronousQueueExample.java" />
+        <option value="$PROJECT_DIR$/run.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tkanng/jvm/HeapOOM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tkanng/jvm/ReferenceCountingGc.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tkanng/ServiceLoaderExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tkanng/jvm/TestClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/TestDataFrame.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/SparkSQLExample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/UserDefinedUntypedAggregation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/UserDefinedTypedAggregation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/LogQuery.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/package.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/TestNarrowAndShuffleDep.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tkanng/SparkPiTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tkanng/H.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/Hello.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tkanng/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tkanng/HelloSuite.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/tkanng/App.java" />
         <option value="$PROJECT_DIR$/src/main/scala/com/tkanng/SparkPi.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/people.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tkanng/ResourcesFetcher.java" />
       </list>
     </option>
   </component>
@@ -97,8 +208,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="292" />
     <option name="y" value="24" />
-    <option name="width" value="1400" />
-    <option name="height" value="1028" />
+    <option name="width" value="1398" />
+    <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -116,20 +227,7 @@
             <path>
               <item name="sparkapp" type="b2602c69:ProjectViewProjectNode" />
               <item name="sparkapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparkapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparkapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sparkapp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sparkapp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -142,20 +240,38 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548690034370" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550897524304" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spark-2.2.3/assembly/target/scala-2.11/jars" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/scala/com/tkanng" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.tkanng" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.tkanng" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="org.scalatest.FunSuite" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tkanng" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/scala/com/tkanng" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,51 +286,74 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.ResourcesFetcher">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tkanng.App" />
+    <configuration name="HeapOOM" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.tkanng.jvm.HeapOOM" />
       <module name="sparkapp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tkanng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" value="-verbose:gc -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tkanng.HelloWorld" />
-      <module name="sparkapp" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tkanng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SparkPi" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Pi" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.tkanng.SparkPi" />
       <module name="sparkapp" />
-      <option name="VM_PARAMETERS" value="-Dspark.master=local" />
+      <option name="VM_PARAMETERS" value="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Remote-app" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.tkanng.App" />
+      <module name="sparkapp" />
+      <option name="VM_PARAMETERS" value="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourcesFetcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tkanng.ResourcesFetcher" />
+      <module name="sparkapp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.tkanng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkSQLExample" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.tkanng.SparkSQLExample" />
+      <module name="sparkapp" />
+      <option name="VM_PARAMETERS" value="-Dspark.master=local[*]" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNarrowAndShuffleDep" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.tkanng.TestNarrowAndShuffleDep" />
+      <module name="sparkapp" />
+      <option name="VM_PARAMETERS" value="-Dspark.master=local[*]" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDefinedTypedAggregation" type="Application" factoryName="Application">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.tkanng.UserDefinedTypedAggregation" />
+      <module name="sparkapp" />
+      <option name="VM_PARAMETERS" value="-Dspark.master=local[*]" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -228,6 +367,55 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="remote-debugging" type="Remote" show_console_on_std_err="true" show_console_on_std_out="true">
+      <module name="sparkapp" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="master" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="HelloSuite" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="true" show_console_on_std_out="true">
+      <module name="sparkapp" />
+      <setting name="path" value="com.tkanng.HelloSuite" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Class" />
+      <setting name="path" value="com.tkanng.HelloSuite" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloSuite.Hello.hello method" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <module name="sparkapp" />
+      <setting name="path" value="com.tkanng.HelloSuite" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <envs />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="com.tkanng.HelloSuite" />
+      <setting name="testName" value="Hello.hello method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -312,15 +500,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
-      <item itemvalue="Application.SparkPi" />
-      <item itemvalue="Application.HelloWorld" />
+      <item itemvalue="Application.Pi" />
+      <item itemvalue="Application.Remote-app" />
+      <item itemvalue="Application.HeapOOM" />
+      <item itemvalue="Application.SparkSQLExample" />
+      <item itemvalue="Application.UserDefinedTypedAggregation" />
+      <item itemvalue="Application.TestNarrowAndShuffleDep" />
+      <item itemvalue="Application.ResourcesFetcher" />
+      <item itemvalue="Remote.remote-debugging" />
+      <item itemvalue="ScalaTest.HelloSuite.Hello.hello method" />
+      <item itemvalue="ScalaTest.HelloSuite" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.HelloWorld" />
-        <item itemvalue="Application.SparkPi" />
+        <item itemvalue="Application.ResourcesFetcher" />
+        <item itemvalue="ScalaTest.HelloSuite" />
+        <item itemvalue="ScalaTest.HelloSuite.Hello.hello method" />
       </list>
     </recent_temporary>
   </component>
@@ -334,136 +529,331 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548659769003</updated>
-      <workItem from="1548659771044" duration="16173000" />
+      <workItem from="1548659771044" duration="16469000" />
+      <workItem from="1548758900829" duration="23362000" />
+      <workItem from="1549255778029" duration="1734000" />
+      <workItem from="1549505457808" duration="6545000" />
+      <workItem from="1549774869346" duration="11497000" />
+      <workItem from="1549805704312" duration="9678000" />
+      <workItem from="1550022533279" duration="39483000" />
+      <workItem from="1550367899023" duration="13300000" />
+      <workItem from="1550479598356" duration="47858000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="H - 2019.02.21 at 15h 38m 39s.xml">
+      <configuration name="H" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="H - 2019.02.21 at 15h 40m 08s.xml">
+      <configuration name="H" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HelloSuite_An_empty_Set_should_have_size_0 - 2019.02.21 at 15h 41m 13s.xml">
+      <configuration name="HelloSuite.An empty Set should have size 0" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HelloSuite - 2019.02.21 at 15h 41m 29s.xml">
+      <configuration name="HelloSuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HelloSuite_Hello_hello_method - 2019.02.21 at 15h 45m 50s.xml">
+      <configuration name="HelloSuite.Hello.hello method" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HelloSuite - 2019.02.21 at 15h 46m 03s.xml">
+      <configuration name="HelloSuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HelloSuite_Hello_hello_method - 2019.02.21 at 15h 47m 35s.xml">
+      <configuration name="HelloSuite.Hello.hello method" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HelloSuite - 2019.02.21 at 15h 47m 42s.xml">
+      <configuration name="HelloSuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HelloSuite - 2019.02.21 at 15h 49m 39s.xml">
+      <configuration name="HelloSuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="HelloSuite - 2019.02.21 at 15h 51m 25s.xml">
+      <configuration name="HelloSuite" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16173000" />
+    <option name="totallyTimeSpent" value="169926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22056384" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3388947" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49947754" weight="0.17523494" />
+      <window_info id="Structure" order="1" sideWeight="0.5005225" side_tool="true" weight="0.17523494" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39937434" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" x="96" y="246" width="1809" height="376" id="Run" order="4" sideWeight="0.4997236" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.4997236" weight="0.39916405" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.2498618" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5002764" side_tool="true" weight="0.41483805" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3291536" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.49738768" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32946378" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.2498618" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32946378" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="R Packages" order="12" />
+      <window_info anchor="right" id="R Graphics" order="13" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tkanng/App.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/tkanng/SparkPi.scala</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/tkanng/SparkPi.scala</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java</url>
+          <line>1133</line>
+          <properties class="java.lang.ClassLoader" method="getResources">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>System.out.println(i);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.out.println(&quot;a&quot;+a);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String b = a +a;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>System.out.println(&quot;ttt&quot;);
+String b=a +a;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>System.out.println(&quot;ttt&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Hello.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.3/spark-core_2.11-2.2.3-sources.jar!/org/apache/spark/SparkContext.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="120">
+          <caret line="719" column="24" lean-forward="true" selection-start-line="719" selection-start-column="24" selection-end-line="719" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tkanng/package.scala">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.3/spark-core_2.11-2.2.3-sources.jar!/org/apache/spark/rdd/ParallelCollectionRDD.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="480">
+          <caret line="63" column="40" lean-forward="true" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tkanng/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/services/com.tkanng.IService">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/IService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hh.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="490" column="25" selection-start-line="490" selection-start-column="25" selection-end-line="490" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enforce.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="1167" column="8" selection-start-line="1167" selection-start-column="8" selection-end-line="1167" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/com.tkanng.AppTest.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/SynchronousQueueExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.tkanng.AppTest.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/SparkTestSuite.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/ServiceLoaderExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="96">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/TEST-com.tkanng.H.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.2.3/spark-core_2.11-2.2.3-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scalatest-plugin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="2732" column="21" selection-start-line="2732" selection-start-column="21" selection-end-line="2732" selection-end-column="21" />
+        <state relative-caret-position="301">
+          <caret line="73" column="34" lean-forward="true" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.3/spark-sql_2.11-2.2.3.jar!/org/apache/spark/sql/SparkSession.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Product2.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="97" column="7" selection-start-line="97" selection-start-column="7" selection-end-line="97" selection-end-column="7" />
+        <state relative-caret-position="408">
+          <caret line="29" column="54" lean-forward="true" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sparkapp.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/Tuple2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/LinearSeqOptimized.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="130" column="18" lean-forward="true" selection-start-line="130" selection-start-column="18" selection-end-line="130" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/TraversableOnce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="213" column="6" selection-start-line="213" selection-start-column="6" selection-end-line="213" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/collection/GenTraversableOnce.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2256">
+          <caret line="284" column="9" lean-forward="true" selection-start-line="284" selection-start-column="9" selection-end-line="284" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.11.8/scala-library-2.11.8-sources.jar!/scala/math/Ordering.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="137" column="6" lean-forward="true" selection-start-line="137" selection-start-column="6" selection-end-line="137" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/jvm/HeapOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/jvm/ReferenceCountingGc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/jvm/TestClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <element signature="e#165#359#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tkanng/SparkPiTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/HDFSService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/com/tkanng/HelloSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#20#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.11/2.2.6/scalatest_2.11-2.2.6-sources.jar!/org/scalatest/BeforeAndAfterAll.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="202" column="5" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tkanng/TestDataFrame.scala">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -474,44 +864,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/LocalService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="264">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/HelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/sparkapp.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="312">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tkanng/SparkSQLExample.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#821#852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tkanng/LogQuery.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="e#20#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="360">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="808" column="5" selection-start-line="808" selection-start-column="5" selection-end-line="808" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/tkanng/SparkPi.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        <state relative-caret-position="288">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
-            <element signature="e#21#61#0" expanded="true" />
+            <element signature="e#21#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.2.3/spark-sql_2.11-2.2.3-sources.jar!/org/apache/spark/sql/DataFrameReader.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="276" column="6" selection-start-line="276" selection-start-column="6" selection-end-line="276" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tkanng/UserDefinedTypedAggregation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="79" column="23" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="27">
+          <caret line="65" column="16" selection-start-line="65" selection-start-column="16" selection-end-line="65" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tkanng/TestNarrowAndShuffleDep.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/people.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/people.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/tkanng/Hello.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="114" column="38" selection-start-line="114" selection-start-column="38" selection-end-line="114" selection-end-column="38" />
+          <folding>
+            <element signature="e#3058#3059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.lang.ClassLoader">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.lang.ClassLoader</OriginalElement>
+          <nodes>
+            <node x="444.0" y="2196.0">java.lang.ClassLoader.NativeLibrary</node>
+            <node x="-282.0" y="-365.0">java.lang.ClassLoader</node>
+            <node x="0.0" y="2292.0">java.lang.ClassLoader.ParallelLoaders</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.lang.ClassLoader.NativeLibrary" target="java.lang.ClassLoader">
+              <point x="0.0" y="-160.5" />
+              <point x="616.0" y="2171.0" />
+              <point x="566.5" y="2171.0" />
+              <point x="152.5" y="1073.0" />
+            </edge>
+            <edge source="java.lang.ClassLoader.ParallelLoaders" target="java.lang.ClassLoader">
+              <point x="0.0" y="-64.5" />
+              <point x="212.0" y="2171.0" />
+              <point x="261.5" y="2171.0" />
+              <point x="-152.5" y="1073.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-440.5" y="-196.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="545" column="13" selection-start-line="545" selection-start-column="13" selection-end-line="545" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/jre/lib/rt.jar!/sun/misc/URLClassPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="59" column="41" lean-forward="true" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+          <folding>
+            <element signature="e#3551#3552#0" expanded="true" />
+            <element signature="e#3614#3615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="431" column="13" selection-start-line="431" selection-start-column="13" selection-end-line="431" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk8u-jdk-master.zip!/jdk8u-jdk-master/src/share/classes/sun/misc/URLClassPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="91" column="60" lean-forward="true" selection-start-line="91" selection-start-column="60" selection-end-line="91" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3612#3620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="1430" column="6" lean-forward="true" selection-start-line="1430" selection-start-column="6" selection-end-line="1430" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="570" column="32" lean-forward="true" selection-start-line="570" selection-start-column="32" selection-end-line="570" selection-end-column="32" />
+          <folding>
+            <element signature="e#21982#21983#0" expanded="true" />
+            <element signature="e#22057#22058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="2210" column="71" selection-start-line="2210" selection-start-column="71" selection-end-line="2210" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/employees.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jodd/jodd-core/3.5.2/jodd-core-3.5.2-sources.jar!/jodd/util/cl/ExtendedURLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="215" column="22" selection-start-line="215" selection-start-column="22" selection-end-line="215" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1133" column="28" selection-start-line="1133" selection-start-column="28" selection-end-line="1133" selection-end-column="28" />
+          <folding>
+            <element signature="e#7118#8856#0" />
+            <element signature="e#44527#44528#0" expanded="true" />
+            <element signature="e#44554#44555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.8.0_201/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="74" column="3" lean-forward="true" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tkanng/ResourcesFetcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -526,7 +1131,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6134921" />
               </list>
             </option>
           </splitter-proportions>
@@ -557,7 +1161,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.8</last-edited>
+          <last-edited>R Skeletons</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

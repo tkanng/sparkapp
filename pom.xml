@@ -62,18 +62,21 @@
       <version>${scala.version}</version>
         <scope>provided</scope>
     </dependency>
+      <!--Scala Test dependency-->
     <dependency>
         <groupId>org.scalatest</groupId>
         <artifactId>scalatest_${scala.binary.version}</artifactId>
         <version>2.2.6</version>
         <scope>test</scope>
     </dependency>
+      <!--Java Test dependency -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+      <!--Developer's own dependency-->
       <dependency>
           <groupId>com.tkanng</groupId>
           <artifactId>hello-world</artifactId>
@@ -97,6 +100,7 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
         </plugin>
+          <!--用于跑测试代码的Maven插件-->
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
@@ -126,6 +130,7 @@
                     <filter>
                       <artifact>*:*</artifact>
                       <excludes>
+                          <!--Without these filters, you might see an exception “java.lang.SecurityException: Invalid signature file digest for Manifest main attributes” at run time, as those signature files would be invalid in the context of your uber JAR.-->
                         <exclude>META-INF/maven/**</exclude>
                         <exclude>META-INF/*.SF</exclude>
                         <exclude>META-INF/*.DSA</exclude>
@@ -133,6 +138,8 @@
                       </excludes>
                     </filter>
                   </filters>
+                    <!--shaded and unshaded artifact will be there. if false, shaded jar will replace  original file-->
+                    <shadedArtifactAttached>true</shadedArtifactAttached>
                 </configuration>
               </execution>
             </executions>
@@ -183,6 +190,7 @@
           <version>3.2.2</version>
           <executions>
               <execution>
+                  <!--Add src/main/scala, src/test/scala to Pom-->
                 <id>add-source</id>
                 <goals>
                   <goal>add-source</goal>
@@ -212,6 +220,8 @@
           <artifactId>maven-source-plugin</artifactId>
           <version>3.0.1</version>
           <configuration>
+              <!--如果是true, mvn install 的时候会把源码的jar包也安装在本地仓库中;
+                  如果是false,依旧会生成源码对应的jar包,但是不会安装到本地仓库中-->
             <attach>true</attach>
           </configuration>
           <executions>
